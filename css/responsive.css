@@ -1,0 +1,40 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1280px) { 
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+}
+
+
+@media only screen and (max-width : 768px) {
+	.padding-ok{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.main-menu {
+	  float: none;
+	  text-align: center;
+	}
+	.carousel-caption h2 {
+	  font-size: 2em;
+	  font-weight: 700;
+	}  
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (max-width: 500px) { 
+  .carousel-caption h2 {
+	  font-size: 1.5em;
+	  font-weight: 600;
+	}  
+}
+
+
+
+
